@@ -1,6 +1,48 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Roboto, sans-serif;
     width: 100vw;
     padding: 0;
     margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+} 
+
+.navigation {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation > a {
+    display: block;
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 200ms ease-in-out;
+}
+
+.navigation > a:hover {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
