@@ -18,7 +18,7 @@ a {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: gray;
+    background-color: #4c5897;
     color: white;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ a {
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: gray;
+        background-color: #4c5897;
     }
 
     .navigation > a {
@@ -125,7 +125,7 @@ a {
 .hero-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #2b3664;
     color: #fff;
     text-decoration: none;
     font-size: 1.7em;
@@ -134,7 +134,7 @@ a {
 }
 
 .hero-button:hover {
-    background-color: #555;
+    background-color: #364379;
 }
 
 @media (max-width: 1200px) {
