@@ -311,7 +311,7 @@ section {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: fit-content
+    height: fit-content;
 }
 
 .sponsors h3 {
@@ -329,4 +329,18 @@ section {
     width: 30%;
     display: block;
     background: black;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 200px;
+    background-color: var(--primary-background);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-size: 16px;
 }
