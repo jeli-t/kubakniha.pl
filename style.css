@@ -301,3 +301,32 @@ section {
     justify-content: center;
     gap: 20px;
 }
+
+
+/* SPONSORS */
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content
+}
+
+.sponsors h3 {
+    font-size: 2em;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+
+.sponsors h3::after { 
+    content: "";
+    margin-top: 15px;
+    margin-left: 35%;
+    height: 2px;
+    width: 30%;
+    display: block;
+    background: black;
+}
