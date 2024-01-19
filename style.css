@@ -319,7 +319,6 @@ section {
 @media (max-width: 768px) {
     .o-mnie {
         margin-top: -150px;
-        margin-bottom: 50px;
     }
 
     .o-mnie .content-wrapper {
@@ -343,7 +342,6 @@ section {
 }
 
 /* Kontakt */
-
 .contact {
     background-color: var(--primary-background);
     color: white;
@@ -351,7 +349,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    padding: 100px 0;
+    scroll-margin-top: 10vh;
 }
 
 .contact a {
@@ -361,7 +360,8 @@ section {
 
 .contact h3 {
     font-size: 3em;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
     display: inline-block;
 }
 
@@ -386,7 +386,21 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        margin-top: 100px;
+    }
+
+    .contact h3 {
+        font-size: 1.6em;
+    }
+
+    .contact h4 {
+        font-size: 20px;
+    }
 }
 
 
