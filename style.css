@@ -15,6 +15,7 @@ body {
     width: 100vw;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -156,6 +157,10 @@ a {
         max-width: 100%;
         margin-left: 50px;
     }
+
+    .hero-button {
+        font-size: 1.5em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -232,6 +237,58 @@ section {
 .text {
     margin-bottom: 1em;
     font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+    .title {
+        font-size: 1.6em;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 2em 0;
+    }
+
+    .container {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .img-wrapper {
+        width: 90%;
+    }
+
+    .img-wrapper > img {
+        width: 100%;
+        height: auto;
+        border: 0;
+        padding: 0;
+        box-shadow: 7px 7px 7px var(--accent2);
+    }
+    
+    .text-wrapper{
+        width: 90%;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
 }
 
 
