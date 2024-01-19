@@ -300,6 +300,11 @@ section {
     margin-bottom: -2em;
 }
 
+.o-mnie img {
+    width: 40px;
+    margin-right: 10px;
+}
+
 .about-img {
     width: 50%;
 }
@@ -311,6 +316,31 @@ section {
     margin-top: 50px;
 }
 
+@media (max-width: 768px) {
+    .o-mnie {
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+
+    .o-mnie .content-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .o-mnie img {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .about-img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .about-img > img {
+        height: 100%;
+        width: auto;
+    }
+}
 
 /* Kontakt */
 
