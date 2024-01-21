@@ -15,6 +15,7 @@ body {
     width: 100vw;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .hide-overflow {
@@ -153,7 +154,6 @@ a {
     text-decoration: none;
     font-size: 1.7em;
     border-radius: 2px;
-    box-shadow: 5px 5px 7px var(--accent1);
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -201,10 +201,15 @@ a {
 
 section {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
     padding: 5em 0;
 }
 
 .treningi {
+    width: 100vw;
     background-color: var(--secondary-background);
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     padding-bottom: 10%;
@@ -212,8 +217,11 @@ section {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
-    margin: 0 auto;
 }
 
 .title {
@@ -233,6 +241,7 @@ section {
 }
 
 .img-wrapper > img {
+    margin: 0;
     width: 80%;
     height: auto;
     padding: 25px;
@@ -263,7 +272,7 @@ section {
     }
 
     .text {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -286,13 +295,13 @@ section {
 
     .img-wrapper {
         width: 90%;
-        display: flex;
     }
 
     .img-wrapper > img {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 0;
+        margin-left: -15px;
         padding: 15px;
         outline: 3px solid var(--accent1);
         outline-offset: -10px;
@@ -317,8 +326,12 @@ section {
 .o-mnie {
     padding: 0px;
     height: fit-content;
-    margin-bottom: -2em;
+    margin-bottom: 0;
     scroll-margin-top: 15vh;
+}
+
+.o-mnie .content-wrapper {
+    margin: 0;
 }
 
 .o-mnie img {
@@ -335,6 +348,7 @@ section {
     width: 80%;
     height: auto;
     margin-top: 50px;
+    margin-bottom: -4px;
 }
 
 @media (max-width: 768px) {
@@ -345,6 +359,7 @@ section {
 
     .o-mnie .content-wrapper {
         flex-direction: column-reverse;
+        margin-top: 70px;
     }
 
     .o-mnie img {
@@ -353,13 +368,17 @@ section {
     }
 
     .about-img {
-        height: 400px;
-        width: 80%;
+        height: 370px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: -40px;
     }
 
     .about-img > img {
         height: 100%;
         width: auto;
+        margin: 0;
     }
 }
 
@@ -421,7 +440,7 @@ section {
     }
 
     .contact h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
