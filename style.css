@@ -497,10 +497,21 @@ section {
     font-size: 16px;
 }
 
+.footer .navigation a {
+    color: white;
+}
+
+.polityka-link {
+    display: none;
+}
 
 @media (max-width: 1200px) {
     .footer > nav {
         display: none;
+    }
+
+    .polityka-link {
+        display: block;
     }
 }
 
@@ -517,4 +528,11 @@ section {
     .footer > p {
         margin: 5px;
     }
+}
+
+.polityka {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 100px;
 }
