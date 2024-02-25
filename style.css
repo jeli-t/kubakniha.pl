@@ -205,15 +205,12 @@ section {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding: 5em 0;
+    padding-top: 4em;
 }
 
 .treningi {
     width: 100vw;
-    background-color: var(--secondary-background);
-    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
-    padding-bottom: 10%;
-    scroll-margin-top: 50px;
+    scroll-margin-top: 20vh;
 }
 
 .container {
@@ -327,7 +324,7 @@ section {
     padding: 0px;
     height: fit-content;
     margin-bottom: 0;
-    scroll-margin-top: 15vh;
+    scroll-margin-top: 5vh;
 }
 
 .o-mnie .content-wrapper {
