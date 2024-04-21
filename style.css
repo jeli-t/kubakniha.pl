@@ -6,8 +6,8 @@ html {
     /* https://mantine.dev/colors-generator/?color=63687C */
     --primary-background: #808496;
     --secondary-background: #c8cad3;
-    --accent1: #dbbf0d;
-    --accent2: #ffdf0d;
+    --accent1: #e6c90b;
+    --accent2: #d3b80f;
 }
 
 body {
@@ -131,8 +131,7 @@ a {
 }
 
 .hero-content {
-    padding: 20px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 .hero-content h1 {
@@ -174,7 +173,7 @@ a {
 
 @media (max-width: 768px) {
     .hero-section {
-        background-position: 700px;
+        background-position: 650px;
     }
 
     .hero-content {
@@ -217,7 +216,10 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1400px;
 }
 
 .title {
@@ -253,7 +255,8 @@ section {
 
 @media (max-width: 1200px) {
     .container {
-        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .title {
@@ -275,7 +278,6 @@ section {
     }
 
     .container {
-        width: 100%;
         height: fit-content;
     }
 
@@ -377,7 +379,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    scroll-margin-top: 10vh;
+    scroll-margin-top: 5vh;
 }
 
 .contact a {
@@ -413,7 +415,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 @media (max-width: 768px) {
@@ -483,6 +485,16 @@ section {
     font-size: 16px;
 }
 
+.footer-left {
+    width: 25%;
+}
+
+.footer-right {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+
 .footer-menu{
     display: flex;
     gap: 20px;
@@ -497,18 +509,6 @@ section {
 }
 
 @media (max-width: 1200px) {
-    .footer > nav {
-        display: none;
-    }
-
-    .polityka-link {
-        display: block;
-        color: white;
-    }
-}
-
-
-@media (max-width: 768px) {
     .footer {
         padding: 20px;
         display: flex;
@@ -519,6 +519,28 @@ section {
 
     .footer > p {
         margin: 5px;
+    }
+
+    .footer > nav {
+        display: none;
+    }
+
+    .polityka-link {
+        display: block;
+        color: white;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+        justify-content: left;
+    }
+
+    .footer-menu {
+        width: 100%;
     }
 }
 
