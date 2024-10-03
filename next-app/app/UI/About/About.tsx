@@ -4,10 +4,10 @@ import AboutImg from './about.png'
 export function About() {
     return (
         <div className="flex items-center justify-center w-full min-h-fit mb-20">
-            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row-reverse gap-4 md:gap-10">
+            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row-reverse gap-4">
                 <Image
                     src={AboutImg}
-                    className="w-full md:w-1/2"
+                    className="w-[90%] md:h-[600px] md:w-auto"
                     alt= "Profesjonalny trener badmintona"
                 />
                 <div className="w-full md:w-1/2">
