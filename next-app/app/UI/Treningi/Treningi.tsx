@@ -11,7 +11,7 @@ export function Treningi() {
                     alt= "Treningi badmintona dla każdego"
                 />
                 <div className="w-full md:w-1/2">
-                    <span className="text-md md:text-xl tracking-widest font-bold text-sky-400">TRENINGI</span>
+                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">TRENINGI</span>
                     <h2 className="text-left text-2xl md:text-3xl font-semibold">
                         Nauczę Cię grać w badmintona
                     </h2>
