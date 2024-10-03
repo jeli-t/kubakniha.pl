@@ -1,7 +1,9 @@
+import classes from "./Navbar.module.css"
+
 export function Navbar() {
     return (
         <div className="flex justify-center h-fit text-white">
-            <div className="navbar fixed z-10 max-w-7xl px-4 rounded-b-xl bg-sky-500">
+            <div className="navbar fixed z-40 max-w-7xl px-4 rounded-b-xl bg-sky-500">
                 <div className="flex-1">
                     <a className="text-md md:text-xl font-bold">Jakub Knihinicki</a>
                 </div>
@@ -13,6 +15,7 @@ export function Navbar() {
                     </ul>
                 </div>
             </div>
+            <div className={classes.bg_fade_out}></div>
         </div>
     )
 }
