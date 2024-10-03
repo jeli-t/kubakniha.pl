@@ -7,7 +7,7 @@ export function HeroSection() {
             <div className="hero-content justify-between max-w-7xl flex-col md:flex-row-reverse gap-4 md:gap-10 xl:gap-40">
                 <Image
                     src={HeroImg}
-                    className="w-full md:min-w-xl"
+                    className="w-full md:min-w-[350px] xl:min-w-[450px]"
                     alt= "Jakub Knihinicki"
                 />
                 <div className="pb-10 w-full min-w-fit">
