@@ -19,7 +19,9 @@ export function HeroSection() {
                         </span>
                     </h1>
                     <div className="flex justify-center pt-4 lg:pt-8">
-                        <button className="btn px-8 bg-sky-500 text-white">Kontakt</button>
+                        <a href="#kontakt">
+                            <button className="btn px-8 bg-sky-500 text-white">Kontakt</button>
+                        </a>
                     </div>
                 </div>
             </div>
