@@ -6,7 +6,7 @@ export function Sponsors() {
         <div className="flex items-center justify-center w-full min-h-fit mb-60">
             <div className="w-full flex items-center justify-center align-center max-w-7xl p-4 flex-col md:flex-row gap-4">
                 <div className="w-full md:w-1/2">
-                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">Partnerzy</span>
+                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">PARTNERZY</span>
                     <h2 className="text-left text-2xl md:text-3xl font-semibold">
                         Dumnie wspieramy przez:
                     </h2>
