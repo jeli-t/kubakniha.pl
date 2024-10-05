@@ -34,7 +34,7 @@ export function Privacy() {
                     <h2 className="text-left text-2xl md:text-3xl font-semibold">Pliki cookie</h2>
 
                     <p className="pt-2 md:pt-4 text-lg md:text-xl"><strong>1. Co to są pliki cookie?</strong></p>
-                    <p>"Nasza strona internetowa nie używa plików cookie."</p>
+                    <p>Nasza strona internetowa nie używa plików cookie.</p>
 
                     <p className="pt-2 md:pt-4 text-lg md:text-xl"><strong>2. Zarządzanie plikami cookie</strong></p>
                     <p>Nie ma potrzeby zarządzania plikami cookie, ponieważ nie są one używane na naszej stronie.</p>
