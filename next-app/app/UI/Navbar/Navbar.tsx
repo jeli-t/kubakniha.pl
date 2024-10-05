@@ -5,7 +5,7 @@ export function Navbar() {
         <div className="flex justify-center h-fit text-white">
             <div className="navbar fixed z-40 max-w-7xl px-4 rounded-b-xl bg-sky-500">
                 <div className="flex-1">
-                    <a className="text-md md:text-xl font-bold">Jakub Knihinicki</a>
+                    <a className="text-md md:text-xl font-bold" href="">Jakub Knihinicki</a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-0 md:px-1">
