@@ -7,7 +7,7 @@ export function Contact() {
         <div id="kontakt" className="flex items-center justify-center w-full min-h-fit mb-20 scroll-m-28">
             <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row-reverse gap-4">
                 <div className="w-full md:w-1/2">
-                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">Kontakt</span>
+                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">KONTAKT</span>
                     <h3 className="text-left text-2xl md:text-3xl font-semibold">
                         Chcesz zapisać się na trening?
                         <br />
