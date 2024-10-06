@@ -1,6 +1,6 @@
 # [kubakniha.pl](https://www.kubakniha.pl/) :point_left:
 
-## My personal portfolio website
+## Landing page for badminton trainer
 
 ![Preview](https://github.com/jeli-t/kubakniha.pl/blob/master/preview.png)
 
