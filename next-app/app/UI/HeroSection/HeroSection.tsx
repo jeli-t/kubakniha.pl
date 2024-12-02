@@ -4,11 +4,11 @@ import HeroImg from './hero.png'
 export function HeroSection() {
     return (
         <div className="hero min-h-screen">
-            <div className="hero-content h-full justify-between align-bottom  max-w-7xl flex-col md:flex-row-reverse gap-4 md:gap-10 xl:gap-20 p-0">
-                <div className="h-full flex justify-center items-end p-0 m-0">
+            <div className="h-full w-full flex items-center md:justify-between align-center max-w-7xl p-4 pt-16 pb-0 flex-col-reverse md:flex-row-reverse">
+                <div className="md:h-full flex justify-center items-end p-0 m-0">
                     <Image
                         src={HeroImg}
-                        className="w-[90%] h-auto md:min-w-[400px] xl:min-w-[500px]"
+                        className="w-[100%] min-h-[450px] md:w-[90%] h-auto md:min-w-[400px] xl:min-w-[500px]"
                         alt= "Jakub Knihinicki"
                     />
                 </div>
