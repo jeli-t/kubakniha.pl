@@ -3,13 +3,15 @@ import AboutImg from './about.png'
 
 export function About() {
     return (
-        <div id="o-mnie" className="flex items-center justify-center w-full min-h-fit mb-20 scroll-m-28">
-            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row-reverse gap-4">
-                <Image
-                    src={AboutImg}
-                    className="w-[90%] md:h-[600px] md:w-auto"
-                    alt= "Profesjonalny trener badmintona"
-                />
+        <div id="o-mnie" className="flex items-center justify-center w-full min-h-fit mb-0 pb-0 scroll-m-28">
+            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 pt-16 pb-0 flex-col md:flex-row-reverse">
+                <div className="h-full flex justify-center items-end p-0 m-0">
+                    <Image
+                        src={AboutImg}
+                        className="w-[90%] md:h-[600px] md:w-auto"
+                        alt= "Profesjonalny trener badmintona"
+                    />
+                </div>
                 <div className="w-full md:w-1/2">
                     <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">O MNIE</span>
                     <h2 className="text-left text-2xl md:text-3xl font-semibold">

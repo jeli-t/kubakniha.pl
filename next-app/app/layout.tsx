@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
-        <div className={classes.bg_fade_in}></div>
+        <div></div>
       </body>
     </html>
   );

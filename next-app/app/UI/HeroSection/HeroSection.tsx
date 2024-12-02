@@ -3,13 +3,15 @@ import HeroImg from './hero.png'
 
 export function HeroSection() {
     return (
-        <div className="hero bg-base-100 min-h-screen">
-            <div className="hero-content justify-between max-w-7xl flex-col md:flex-row-reverse gap-4 md:gap-10 xl:gap-40">
-                <Image
-                    src={HeroImg}
-                    className="w-[90%] md:min-w-[350px] xl:min-w-[450px]"
-                    alt= "Jakub Knihinicki"
-                />
+        <div className="hero min-h-screen">
+            <div className="hero-content h-full justify-between align-bottom  max-w-7xl flex-col md:flex-row-reverse gap-4 md:gap-10 xl:gap-20 p-0">
+                <div className="h-full flex justify-center items-end p-0 m-0">
+                    <Image
+                        src={HeroImg}
+                        className="w-[90%] h-auto md:min-w-[400px] xl:min-w-[500px]"
+                        alt= "Jakub Knihinicki"
+                    />
+                </div>
                 <div className="pb-10 w-full min-w-fit">
                     <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold">
                         Jakub Knihinicki
