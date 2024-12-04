@@ -3,7 +3,7 @@ import TreningiImg from './treningi.jpeg'
 
 export function Treningi() {
     return (
-        <div id="treningi" className="flex items-center justify-center w-full min-h-fit pt-16 pb-16 scroll-m-28 bg-zinc-700">
+        <div id="treningi" className="flex items-center justify-center w-full min-h-fit pt-16 pb-16 scroll-m-28 bg-[#2d3641]">
             <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row gap-4 md:gap-10">
                 <Image
                     src={TreningiImg}
