@@ -12,7 +12,7 @@ export function Footer() {
                 </div>
                 <div className="flex-1">
                     <div>
-                        Copyright © 2024 Jakub Knihinicki.
+                        Copyright © 2026 Jakub Knihinicki.
                         <br />
                         Powered by <a target="_blank" className="text-sky-400" href="https://jeli.pl">jeli.pl</a>
                     </div>

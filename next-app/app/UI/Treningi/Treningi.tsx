@@ -16,7 +16,7 @@ export function Treningi() {
                         Nauczę Cię grać w badmintona
                     </h2>
                     <p className="pt-2 md:pt-4 text-lg md:text-xl">
-                        Chcesz poprawić swoją technikę, szybkość i wytrzymałość na korcie? Zapraszam na treningi indywidualne z badmintona w grupie od 2 do 4 osób. Możesz zabrać ze sobą znajomych lub rodzinę! Treningi są dostosowane do indywidualnych potrzeb i celów - od podstawowych zasad gry, po zaawansowane strategie taktyczne. Gwarantuję profesjonalne podejście i dobrą zabawę! <br /> Treningi odbywają się w INFINITI - Centrum Zdrowia na Alei Jana Pawła II 58, 47-232 Kędzierzyn-Koźle. Zapisy telefonicznie lub mailowo.
+                        Chcesz poprawić swoją technikę, szybkość i wytrzymałość na korcie? Zapraszam na treningi indywidualne z badmintona w grupie od 2 do 4 osób. Możesz zabrać ze sobą znajomych lub rodzinę! Treningi są dostosowane do indywidualnych potrzeb i celów - od podstawowych zasad gry, po zaawansowane strategie taktyczne. Gwarantuję profesjonalne podejście i dobrą zabawę! <br /> Treningi odbywają się w Centrum Sportu Bażantowo ul. Pijarska 3, Katowice. Zapisy telefonicznie lub mailowo.
                     </p>
                 </div>
             </div>

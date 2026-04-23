@@ -18,7 +18,7 @@ export function About() {
                         Cześć, jestem Kuba!
                     </h2>
                     <p className="pt-2 md:pt-4 text-lg md:text-xl">
-                        Jestem młodym, ambitnym zawodnikiem klubu BENINCA UKS FENIKS Kędzierzyn-Koźle, a także instruktorem badmintona. W Kwietniu 2023 roku skończyłem kurs instruktorski i chcę przekazywać swoją wiedzę innym. Z badmintonem jestem związany już 9 lat. Poza tym interesuję się budowaniem sylwetki i siły na siłowni, dietetyką.
+                        Jestem młodym, ambitnym zawodnikiem klubu BENINCA UKS FENIKS Kędzierzyn-Koźle, a także instruktorem badmintona. W Kwietniu 2023 roku skończyłem kurs instruktorski i chcę przekazywać swoją wiedzę innym. Z badmintonem jestem związany już 11 lat. Poza tym interesuję się budowaniem sylwetki i siły na siłowni, dietetyką.
                     </p>
                 </div>
             </div>

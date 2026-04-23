@@ -30,7 +30,7 @@ export function Contact() {
                                     width={32}
                                     height={32}
                                 />
-                                <a className="text-lg text-sky-400 leading-8" href="https://www.instagram.com/kubakniha/">kubakniha</a>
+                                <a className="text-lg text-sky-400 leading-8" href="https://www.instagram.com/j.knihinicki_badminton/">j.knihinicki_badminton</a>
                             </div>
                             <div className="flex justify-center mt-8">
                                 <Image
