@@ -59,7 +59,7 @@ export function Contact() {
                                 />
                                 <span className="min-w-0">
                                     <span className="block text-sm font-bold uppercase text-court-green">Facebook</span>
-                                    <span className="block truncate text-lg font-black sm:text-xl">Jakub Knihinicki</span>
+                                    <span className="block truncate text-lg font-black sm:text-xl">Jakub Knihinicki - Instruktor badmintona </span>
                                 </span>
                             </a>
                         </div>
