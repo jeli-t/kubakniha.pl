@@ -1,9 +1,9 @@
 export function Privacy() {
     return (
         <div className="flex items-center justify-center w-full min-h-fit mt-40 mb-60">
-            <div className="w-full flex items-center justify-between align-center max-w-3xl p-4 flex-col gap-14">
+            <div className="w-full flex items-center justify-between align-center max-w-3xl rounded-[2rem] bg-court-panel/75 p-6 shadow-2xl flex-col gap-14 md:p-10">
                 <div className="w-full">
-                    <h2 className="text-left text-2xl md:text-3xl font-semibold">Polityka prywatności</h2>
+                    <h2 className="display-heading text-left text-3xl md:text-5xl">Polityka prywatności</h2>
 
                     <p className="pt-2 md:pt-4 text-lg md:text-xl"><strong>1. Informacje ogólne</strong></p>
                     <p>Witamy na stronie <a href="https://kubakniha.pl">kubakniha.pl</a>. Niniejsza polityka prywatności określa, w jaki sposób zbieramy, przetwarzamy i chronimy dane statystyczne z wizyt użytkowników.</p>
@@ -31,7 +31,7 @@ export function Privacy() {
                 </div>
 
                 <div className="w-full">
-                    <h2 className="text-left text-2xl md:text-3xl font-semibold">Pliki cookie</h2>
+                    <h2 className="display-heading text-left text-3xl md:text-5xl">Pliki cookie</h2>
 
                     <p className="pt-2 md:pt-4 text-lg md:text-xl"><strong>1. Co to są pliki cookie?</strong></p>
                     <p>Nasza strona internetowa nie używa plików cookie.</p>

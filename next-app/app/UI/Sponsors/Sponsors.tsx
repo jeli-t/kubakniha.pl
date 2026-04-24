@@ -3,11 +3,11 @@ import InfinitiImg from './infiniti.png'
 
 export function Sponsors() {
     return (
-        <div className="flex items-center justify-center w-full min-h-fit pt-16 mb-60">
+        <div className="flex items-center justify-center w-full min-h-fit pt-16 mb-60 bg-court-deep/35">
             <div className="w-full flex items-center justify-center align-center max-w-7xl p-4 flex-col md:flex-row gap-4">
                 <div className="w-full md:w-1/2">
-                    <span className="text-md md:text-lg tracking-widest font-bold text-sky-400">PARTNERZY</span>
-                    <h2 className="text-left text-2xl md:text-3xl font-semibold">
+                    <span className="eyebrow text-md md:text-lg">PARTNERZY</span>
+                    <h2 className="display-heading pt-2 text-left text-3xl md:text-5xl">
                         Dumnie wspieramy przez:
                     </h2>
                 </div>

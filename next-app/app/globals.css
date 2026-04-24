@@ -3,15 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #00463f;
+  --foreground: #f8fff9;
+  --court-deep: #003f38;
+  --court-green: #006f63;
+  --court-panel: #5c9b92;
+  --court-panel-dark: #407a73;
+  --court-line: #a9c9c2;
+  --court-white: #f8fff9;
+  --court-orange: #f47a3d;
+  --court-purple: #4b166d;
+  --font-display: Impact, "Arial Narrow", "Roboto Condensed", var(--font-geist-sans), sans-serif;
+  --font-body: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
 body {
   color: var(--foreground);
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    linear-gradient(104deg, rgba(169, 201, 194, 0.32) 0 2px, transparent 2px 100%) 0 120px / 100% 360px no-repeat,
+    linear-gradient(86deg, transparent 0 84%, rgba(169, 201, 194, 0.34) 84% 85%, transparent 85% 100%),
+    radial-gradient(circle at 18% 18%, rgba(0, 111, 99, 0.65), transparent 34%),
+    linear-gradient(135deg, var(--court-green), var(--court-deep) 62%);
+  font-family: var(--font-body);
+  font-weight: 500;
 }
 
 @layer utilities {
@@ -22,4 +36,62 @@ body {
 
 * {
   scroll-behavior: smooth;
+}
+
+::selection {
+  color: var(--court-deep);
+  background: var(--court-orange);
+}
+
+a {
+  text-decoration-thickness: 2px;
+}
+
+strong {
+  color: var(--court-white);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+}
+
+@layer components {
+  .section-band {
+    background: rgba(92, 155, 146, 0.72);
+  }
+
+  .eyebrow {
+    color: var(--court-white);
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .display-heading {
+    color: var(--court-white);
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 900;
+    line-height: 0.95;
+    text-transform: uppercase;
+  }
+
+  .headline-panel {
+    color: var(--court-deep);
+    background: var(--court-white);
+    border-radius: 1.5rem;
+    box-shadow: 0 18px 50px rgba(0, 40, 36, 0.25);
+  }
+
+  .sport-link {
+    color: var(--court-white);
+    font-weight: 800;
+    text-decoration-color: rgba(248, 255, 249, 0.4);
+    text-underline-offset: 0.22em;
+  }
+
+  .sport-link:hover {
+    color: var(--court-orange);
+  }
 }
