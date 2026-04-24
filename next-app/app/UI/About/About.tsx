@@ -13,11 +13,12 @@ export function About() {
                     />
                 </div>
                 <div className="w-full md:w-1/2">
-                    <span className="eyebrow text-md md:text-lg">O MNIE</span>
-                    <h2 className="display-heading pt-2 text-left text-3xl md:text-5xl">
+                    <span className="eyebrow text-base md:text-lg">O MNIE</span>
+                    <h2 className="display-heading max-w-3xl pt-2 text-left text-4xl sm:text-5xl lg:text-6xl">
                         Cześć, jestem Kuba!
                     </h2>
-                    <p className="pt-2 text-lg leading-relaxed text-court-white md:pt-4 md:text-xl">
+                    <div className="mt-5 h-1.5 w-20 bg-court-panel sm:w-24"></div>
+                    <p className="max-w-3xl pt-5 text-base leading-relaxed text-court-white sm:text-lg md:text-xl">
                         Jestem młodym, ambitnym zawodnikiem klubu BENINCA UKS FENIKS Kędzierzyn-Koźle, a także instruktorem badmintona. W Kwietniu 2023 roku skończyłem kurs instruktorski i chcę przekazywać swoją wiedzę innym. Z badmintonem jestem związany już 11 lat. Poza tym interesuję się budowaniem sylwetki i siły na siłowni, dietetyką.
                     </p>
                 </div>
@@ -25,3 +26,4 @@ export function About() {
         </div>
     )
 }
+

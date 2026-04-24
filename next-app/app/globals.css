@@ -69,6 +69,12 @@ strong {
     background: rgba(92, 155, 146, 0.72);
   }
 
+  .training-court {
+    background:
+      linear-gradient(82deg, transparent 0 78%, rgba(248, 255, 249, 0.22) 78.2% 78.6%, transparent 79% 100%),
+      rgba(92, 155, 146, 0.72);
+  }
+
   .eyebrow {
     color: var(--court-white);
     font-family: var(--font-display);
