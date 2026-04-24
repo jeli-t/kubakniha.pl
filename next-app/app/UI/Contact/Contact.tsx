@@ -5,7 +5,7 @@ import FacebookIcon from './fb.png'
 export function Contact() {
     return (
         <div id="kontakt" className="section-band flex items-center justify-center w-full min-h-fit pt-16 pb-16 scroll-m-28">
-            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row-reverse gap-4">
+            <div className="w-full flex items-center justify-between align-center max-w-[1600px] p-4 flex-col md:flex-row-reverse gap-4 lg:px-14 2xl:px-16">
                 <div className="w-full md:w-1/2">
                     <span className="eyebrow text-md md:text-lg">KONTAKT</span>
                     <h3 className="display-heading pt-2 text-left text-3xl md:text-5xl">

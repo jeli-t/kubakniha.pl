@@ -4,7 +4,7 @@ import TreningiImg from './treningi.jpeg'
 export function Treningi() {
     return (
         <div id="treningi" className="section-band flex items-center justify-center w-full min-h-fit pt-16 pb-16 scroll-m-28">
-            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 flex-col md:flex-row gap-4 md:gap-10">
+            <div className="w-full flex items-center justify-between align-center max-w-[1600px] p-4 flex-col md:flex-row gap-4 md:gap-10 lg:px-14 2xl:px-16">
                 <Image
                     src={TreningiImg}
                     className="w-full rounded-[2rem] border-4 border-court-white shadow-2xl md:w-1/2"

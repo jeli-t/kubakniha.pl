@@ -3,7 +3,7 @@ import classes from "./Navbar.module.css"
 export function Navbar() {
     return (
         <div className="flex justify-center h-fit text-court-white">
-            <div className="navbar fixed z-40 max-w-7xl rounded-b-3xl bg-court-white px-4 text-court-deep shadow-xl">
+            <div className="navbar fixed z-40 w-full max-w-[1600px] rounded-b-3xl bg-court-white px-4 text-court-deep shadow-xl">
                 <div className="flex-1">
                     <a className="font-display text-lg font-black italic md:text-2xl" href="">Jakub Knihinicki</a>
                 </div>

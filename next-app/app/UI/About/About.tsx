@@ -4,7 +4,7 @@ import AboutImg from './about.png'
 export function About() {
     return (
         <div id="o-mnie" className="flex items-center justify-center w-full min-h-fit mb-0 pb-0 scroll-m-28 bg-court-deep/35">
-            <div className="w-full flex items-center justify-between align-center max-w-7xl p-4 pt-16 pb-0 flex-col-reverse md:flex-row-reverse">
+            <div className="w-full flex items-center justify-between align-center max-w-[1600px] p-4 pt-16 pb-0 flex-col-reverse md:flex-row-reverse lg:px-14 2xl:px-16">
                 <div className="h-full flex justify-center items-end p-0 m-0">
                     <Image
                         src={AboutImg}
