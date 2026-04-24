@@ -20,8 +20,6 @@ export function Contact() {
                         <div className="artboard artboard-demo phone-1">
                             <h4 className="text-2xl font-semibold ">Telefon:</h4>
                             <a className="text-lg text-sky-400" href="tel:+48782795254">782 795 254</a>
-                            <h4 className="text-2xl font-semibold mt-8">E-mail:</h4>
-                            <a className="text-lg text-sky-400" href="mailto:kubakniha.bad@wp.pl">kubakniha.bad@wp.pl</a>
                             <div className="flex justify-center mt-8">
                                 <Image
                                     src={InstagramIcon}
@@ -40,7 +38,7 @@ export function Contact() {
                                     width={32}
                                     height={32}
                                 />
-                                <a className="text-lg text-sky-400 leading-8" href="https://www.facebook.com/jakub.knihinicki.3">Jakub Knihinicki</a>
+                                <a className="text-lg text-sky-400 leading-8" href="https://www.facebook.com/profile.php?id=61552974901285">Jakub Knihinicki - Instruktor badmintona </a>
                             </div>
                         </div>
                     </div>
