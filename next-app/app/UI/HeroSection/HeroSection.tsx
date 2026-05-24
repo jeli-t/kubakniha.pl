@@ -39,7 +39,7 @@ export function HeroSection() {
 
                     <a href="#kontakt" className="btn mt-7 h-auto w-fit rounded-full border-0 bg-court-white px-6 py-4 font-body text-base font-black text-court-deep shadow-xl hover:bg-court-panel hover:text-court-white sm:px-7 sm:text-lg md:mt-8 md:px-9 md:text-xl">
                         Zapisz się na trening
-                        <span className="pl-2 text-2xl leading-none text-court-green sm:pl-3 sm:text-3xl">›</span>
+                        <span className="pl-2 text-4xl leading-none text-court-green sm:pl-3 sm:text-3xl">›</span>
                     </a>
 
                     {/* Location badges */}

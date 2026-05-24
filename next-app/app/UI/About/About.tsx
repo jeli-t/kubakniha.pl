@@ -18,7 +18,9 @@ export function About() {
                         <p className="text-base font-black text-court-deep sm:text-lg">
                             Patronem moich trenigów jest VICTOR POLSKA
                         </p>
-                        <img src="/victor.avif" alt="Victor Polska" className="mt-6 h-28 w-auto" />
+                        <a href="https://victor-polska.pl/" target="_blank" rel="noopener noreferrer">
+                        <img src="/victor.png" alt="Victor Polska" className="mt-6 h-28 w-auto" />
+                        </a>
                     </div>
                 </div>
                 <div className="order-1 flex items-end justify-center md:order-2 md:justify-end">
