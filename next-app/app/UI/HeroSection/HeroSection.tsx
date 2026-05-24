@@ -25,13 +25,20 @@ export function HeroSection() {
                         <span className="pl-2 text-2xl leading-none text-court-green sm:pl-3 sm:text-3xl">›</span>
                     </a>
 
-                    <div className="mt-7 flex max-w-md items-center gap-3 text-sm font-semibold leading-snug text-court-white sm:max-w-none sm:text-base md:mt-8 md:text-xl">
+                    <div className="mt-7 flex max-w-md items-start gap-3 text-sm font-semibold leading-snug text-court-white sm:max-w-none sm:text-base md:mt-8 md:text-xl">
                         <span className="flex h-7 w-7 shrink-0 items-center justify-center text-court-panel sm:h-8 sm:w-8" aria-hidden="true">
                             <svg viewBox="0 0 24 24" className="h-full w-full fill-current">
                                 <path d="M18.364 4.636a9 9 0 0 1 0 12.728l-4.243 4.243a3 3 0 0 1 -4.242 0l-4.243 -4.243a9 9 0 1 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
                             </svg>
                         </span>
-                        <span>Katowice · Centrum Sportowe Bażantowo</span>
+                        <div>
+                            <span>Katowice:</span>
+                            <ul className="mt-1 list-disc pl-5">
+                                <li>Centrum Sportu Bażantowo</li>
+                                <li>Hala Basen Zadole</li>
+                                <li>Inne okoliczne hale</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 

@@ -35,7 +35,7 @@ export function Contact() {
                                 </span>
                             </a>
 
-                            <a className="group flex min-w-0 items-center gap-4 rounded-2xl bg-court-white/95 px-4 py-4 text-court-deep shadow-lg transition hover:bg-court-line" href="https://www.instagram.com/j.knihinicki_badminton/" target="_blank" rel="noreferrer">
+                            <a className="group flex min-w-0 items-center gap-4 rounded-2xl bg-court-white px-4 py-4 text-court-deep shadow-lg transition hover:bg-court-line" href="https://www.instagram.com/j.knihinicki_badminton/" target="_blank" rel="noreferrer">
                                 <Image
                                     src={InstagramIcon}
                                     className="h-11 w-11 shrink-0 rounded-full"
@@ -49,7 +49,7 @@ export function Contact() {
                                 </span>
                             </a>
 
-                            <a className="group flex min-w-0 items-center gap-4 rounded-2xl bg-court-white/95 px-4 py-4 text-court-deep shadow-lg transition hover:bg-court-line" href="https://www.facebook.com/profile.php?id=61552974901285" target="_blank" rel="noreferrer">
+                            <a className="group flex min-w-0 items-center gap-4 rounded-2xl bg-court-white px-4 py-4 text-court-deep shadow-lg transition hover:bg-court-line" href="https://www.facebook.com/profile.php?id=61552974901285" target="_blank" rel="noreferrer">
                                 <Image
                                     src={FacebookIcon}
                                     className="h-11 w-11 shrink-0 rounded-full"

@@ -19,8 +19,14 @@ export function About() {
                     </h2>
                     <div className="mt-5 h-1.5 w-20 bg-court-panel sm:w-24"></div>
                     <p className="max-w-3xl pt-5 text-base leading-relaxed text-court-white sm:text-lg md:text-xl">
-                        Jestem młodym, ambitnym zawodnikiem klubu BENINCA UKS FENIKS Kędzierzyn-Koźle, a także instruktorem badmintona. W Kwietniu 2023 roku skończyłem kurs instruktorski i chcę przekazywać swoją wiedzę innym. Z badmintonem jestem związany już 11 lat. Poza tym interesuję się budowaniem sylwetki i siły na siłowni, dietetyką.
+                        Jestem młodym, ambitnym zawodnikiem klubu BENINCA UKS FENIKS Kędzierzyn-Koźle, a także instruktorem badmintona. W Kwietniu 2023 roku skończyłem kurs instruktorski i chcę przekazywać swoją wiedzę innym. Z badmintonem jestem związany już 11 lat. Aktualnie studiuję Informatykę na Politechnice Śląskiej. Poza tym interesuję się budowaniem sylwetki i siły na siłowni oraz dietetyką.
                     </p>
+                    <div className="mt-8">
+                        <p className="text-lg font-black text-court-white sm:text-xl">
+                            Patronem moich trenigów jest VICTOR POLSKA
+                        </p>
+                        <img src="/victor.avif" alt="Victor Polska" className="mt-4 h-28 w-auto" />
+                    </div>
                 </div>
             </div>
         </div>
