@@ -1,13 +1,30 @@
 import Image from "next/image";
 import HeroImg from "./hero.png";
+import HeroBg from "./hero-bg.png";
 
 export function HeroSection() {
     return (
-        <section className="hero-court relative isolate flex min-h-[100svh] overflow-hidden pt-20">
-            <div className="absolute inset-0 -z-10 bg-court-deep/25"></div>
+        <section className="hero-court relative isolate flex min-h-screen w-full overflow-hidden pt-20">
+            {/* Background photo */}
+            <Image
+                src={HeroBg}
+                alt=""
+                fill
+                priority
+                className="-z-30 object-cover object-center"
+            />
+            {/* Dark gradient — left readable, right reveals photo */}
+            <div className="absolute inset-0 -z-20 bg-gradient-to-r from-[#001c19]/95 via-[#002b26]/80 to-[#003830]/25"></div>
+            {/* Subtle court line accents */}
+            <div className="pointer-events-none absolute inset-0 -z-10" style={{
+                background: `
+                    linear-gradient(18deg, transparent 0 42%, rgba(248,255,249,0.06) 42.2% 42.8%, transparent 43% 100%),
+                    linear-gradient(96deg, transparent 0 78%, rgba(248,255,249,0.06) 78.2% 78.8%, transparent 79% 100%)
+                `
+            }}></div>
 
-            <div className="mx-auto grid w-full max-w-[1600px] grid-cols-1 items-end gap-0 px-5 pb-0 pt-4 sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(300px,0.72fr)] md:gap-8 md:px-10 lg:px-14 2xl:px-16">
-                <div className="z-10 flex flex-col justify-center pb-4 pt-4 sm:pb-6 md:min-h-[calc(100svh-5rem)] md:pb-16">
+            <div className="mx-auto grid w-full flex-1 max-w-[1600px] grid-cols-1 items-stretch gap-0 px-5 pb-0 pt-4 sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(300px,0.72fr)] md:gap-8 md:px-10 lg:px-14 2xl:px-16">
+                <div className="z-10 flex flex-col justify-center self-center pb-8 pt-4 sm:pb-10 md:pb-16">
                     <h1 className="display-heading max-w-[860px] text-5xl leading-[1] sm:text-7xl lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem]">
                         Badminton
                         <br />
@@ -25,29 +42,25 @@ export function HeroSection() {
                         <span className="pl-2 text-2xl leading-none text-court-green sm:pl-3 sm:text-3xl">›</span>
                     </a>
 
-                    <div className="mt-7 flex max-w-md items-start gap-3 text-sm font-semibold leading-snug text-court-white sm:max-w-none sm:text-base md:mt-8 md:text-xl">
-                        <span className="flex h-7 w-7 shrink-0 items-center justify-center text-court-panel sm:h-8 sm:w-8" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" className="h-full w-full fill-current">
-                                <path d="M18.364 4.636a9 9 0 0 1 0 12.728l-4.243 4.243a3 3 0 0 1 -4.242 0l-4.243 -4.243a9 9 0 1 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
-                            </svg>
-                        </span>
-                        <div>
-                            <span>Katowice:</span>
-                            <ul className="mt-1 list-disc pl-5">
-                                <li>Centrum Sportu Bażantowo</li>
-                                <li>Hala Basen Zadole</li>
-                                <li>Inne okoliczne hale</li>
-                            </ul>
-                        </div>
+                    {/* Location badges */}
+                    <div className="mt-7 flex flex-wrap gap-2 md:mt-8">
+                        {['Centrum Sportu Bażantowo', 'Hala Basen Zadole', 'inne okoliczne hale'].map((loc) => (
+                            <span key={loc} className="flex items-center gap-1.5 rounded-full bg-court-white/10 px-3 py-1.5 text-xs font-semibold text-court-white backdrop-blur-sm ring-1 ring-court-white/20 sm:text-sm">
+                                <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 shrink-0 fill-current text-court-panel" aria-hidden="true">
+                                    <path d="M18.364 4.636a9 9 0 0 1 0 12.728l-4.243 4.243a3 3 0 0 1 -4.242 0l-4.243 -4.243a9 9 0 1 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                                </svg>
+                                {loc}
+                            </span>
+                        ))}
                     </div>
                 </div>
 
-                <div className="relative flex min-h-[300px] items-end justify-center sm:min-h-[380px] md:min-h-[calc(100svh-5rem)] md:justify-end">
+                <div className="relative flex items-end justify-center self-end md:justify-end">
                     <div className="absolute bottom-0 right-0 h-[72%] w-[84%] rounded-t-full bg-court-panel/12 blur-3xl"></div>
                     <Image
                         src={HeroImg}
                         priority
-                        className="relative z-10 h-auto max-h-[42svh] w-auto max-w-[92%] object-contain sm:max-h-[48svh] md:max-h-[82svh] md:max-w-[112%]"
+                        className="relative z-10 h-auto max-h-[55svh] w-auto max-w-[92%] object-contain sm:max-h-[65svh] md:max-h-[calc(100vh-5rem)] md:max-w-[112%]"
                         alt="Jakub Knihinicki - instruktor badmintona Katowice"
                     />
                 </div>
@@ -55,4 +68,3 @@ export function HeroSection() {
         </section>
     )
 }
-
