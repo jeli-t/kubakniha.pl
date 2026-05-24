@@ -1,5 +1,6 @@
 import Image from "next/image";
 import AboutImg from './about.png'
+import VictorLogo from './victor.png'
 
 export function About() {
     return (
@@ -19,7 +20,7 @@ export function About() {
                             Patronem moich trenigów jest VICTOR POLSKA
                         </p>
                         <a href="https://victor-polska.pl/" target="_blank" rel="noopener noreferrer">
-                        <img src="/victor.png" alt="Victor Polska" className="mt-6 h-28 w-auto" />
+                        <Image src={VictorLogo} alt="Victor Polska" className="mt-6 h-28 w-auto" />
                         </a>
                     </div>
                 </div>
