@@ -9,7 +9,7 @@ export function About() {
                     <Image
                         src={AboutImg}
                         className="w-[90%] md:h-[600px] md:w-auto"
-                        alt= "Profesjonalny trener badmintona"
+                        alt="Jakub Knihinicki z certyfikatem instruktora badmintona"
                     />
                 </div>
                 <div className="w-full md:w-1/2">

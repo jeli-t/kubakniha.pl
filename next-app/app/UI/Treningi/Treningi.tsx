@@ -13,7 +13,7 @@ export function Treningi() {
                         <Image
                             src={TreningiImg}
                             className="aspect-[4/3] w-full rounded-[1.55rem] object-cover md:aspect-[5/4] lg:aspect-[4/3]"
-                            alt="Treningi badmintona dla każdego"
+                            alt="Treningi badmintona Katowice - Jakub Knihinicki instruktor"
                         />
                     </div>
                 </div>
