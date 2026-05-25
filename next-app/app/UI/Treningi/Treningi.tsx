@@ -6,7 +6,7 @@ export function Treningi() {
     return (
         <section id="treningi" className="relative z-20 flex w-full scroll-m-28 items-center justify-center bg-white px-5 pb-28 sm:px-6 md:pb-36" style={{paddingTop: 'calc(5rem)' }}>
             <div className="grid w-full max-w-[1600px] grid-cols-1 items-center gap-12 md:grid-cols-[minmax(320px,0.92fr)_minmax(0,1fr)] lg:gap-20 lg:px-8 2xl:px-16">
-                <AnimateOnScroll>
+                <AnimateOnScroll className="order-2 md:order-1">
                 <div className="relative mx-auto w-full max-w-3xl md:mx-0">
                     <div className="relative shadow-2xl">
                         <Image
@@ -18,7 +18,7 @@ export function Treningi() {
                 </div>
                 </AnimateOnScroll>
 
-                <AnimateOnScroll delay={150}>
+                <AnimateOnScroll delay={150} className="order-1 md:order-2">
                 <div className="w-full">
                     <span className="eyebrow-dark text-base md:text-lg">TRENINGI</span>
                     <h2 className="display-heading-dark max-w-3xl pt-2 text-left text-4xl sm:text-5xl lg:text-6xl">
