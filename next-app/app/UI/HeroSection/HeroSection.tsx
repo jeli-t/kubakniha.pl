@@ -25,25 +25,25 @@ export function HeroSection() {
 
             <div className="mx-auto grid w-full flex-1 max-w-[1600px] grid-cols-1 items-stretch gap-0 px-5 pb-0 pt-4 sm:px-6 md:grid-cols-[minmax(0,1fr)_minmax(300px,0.72fr)] md:gap-8 md:px-10 lg:px-14 2xl:px-16">
                 <div className="z-10 flex flex-col justify-center self-center pb-8 pt-4 sm:pb-10 md:pb-16">
-                    <h1 className="display-heading max-w-[860px] text-5xl leading-[1] sm:text-7xl lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem]">
+                    <h1 className="hero-anim display-heading max-w-[860px] text-5xl leading-[1] sm:text-7xl lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem]" style={{ animationDelay: '0.05s' }}>
                         Badminton
                         <br />
                         dla każdego
                     </h1>
 
-                    <div className="mt-5 h-1.5 w-20 bg-court-panel sm:w-24 md:mt-7"></div>
+                    <div className="hero-anim mt-5 h-1.5 w-20 bg-court-panel sm:w-24 md:mt-7" style={{ animationDelay: '0.2s' }}></div>
 
-                    <p className="mt-5 max-w-2xl text-base font-semibold leading-snug text-court-white sm:text-xl md:mt-6 md:text-2xl">
+                    <p className="hero-anim mt-5 max-w-2xl text-base font-semibold leading-snug text-court-white sm:text-xl md:mt-6 md:text-2xl" style={{ animationDelay: '0.3s' }}>
                         Treningi badmintona w Katowicach dla dzieci i dorosłych. Wejdź na wyższy poziom gry.
                     </p>
 
-                    <a href="#kontakt" className="btn mt-7 h-auto w-fit rounded-full border-0 bg-court-white px-6 py-4 font-body text-base font-black text-court-deep shadow-xl hover:bg-court-panel hover:text-court-white sm:px-7 sm:text-lg md:mt-8 md:px-9 md:text-xl">
+                    <a href="#kontakt" className="hero-anim btn mt-7 h-auto w-fit rounded-full border-0 bg-court-white px-6 py-4 font-body text-base font-black text-court-deep shadow-xl hover:bg-court-panel hover:text-court-white sm:px-7 sm:text-lg md:mt-8 md:px-9 md:text-xl" style={{ animationDelay: '0.4s' }}>
                         Zapisz się na trening
                         <span className="pl-2 text-4xl leading-none text-court-green sm:pl-3 sm:text-3xl">›</span>
                     </a>
 
                     {/* Location badges */}
-                    <div className="mt-7 flex flex-wrap gap-2 md:mt-8">
+                    <div className="hero-anim mt-7 flex flex-wrap gap-2 md:mt-8" style={{ animationDelay: '0.5s' }}>
                         {['Centrum Sportu Bażantowo', 'Hala Basen Zadole', 'inne okoliczne hale'].map((loc) => (
                             <span key={loc} className="flex items-center gap-1.5 rounded-full bg-court-white/10 px-3 py-1.5 text-xs font-semibold text-court-white backdrop-blur-sm ring-1 ring-court-white/20 sm:text-sm">
                                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 shrink-0 fill-current text-court-panel" aria-hidden="true">
@@ -55,7 +55,7 @@ export function HeroSection() {
                     </div>
                 </div>
 
-                <div className="relative flex items-end justify-center self-end md:justify-end">
+                <div className="hero-anim-photo relative flex items-end justify-center self-end md:justify-end">
                     <div className="absolute bottom-0 right-0 h-[72%] w-[84%] rounded-t-full bg-court-panel/12 blur-3xl"></div>
                     <Image
                         src={HeroImg}

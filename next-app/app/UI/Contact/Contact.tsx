@@ -1,6 +1,7 @@
 import Image from "next/image";
 import InstagramIcon from "./ig.png";
 import FacebookIcon from "./fb.png";
+import { AnimateOnScroll } from "../AnimateOnScroll";
 
 export function Contact() {
     return (
@@ -8,6 +9,7 @@ export function Contact() {
             <div className="grid w-full max-w-[1600px] grid-cols-1 gap-12 md:grid-cols-2 lg:gap-24 lg:px-8 2xl:px-16">
 
                 {/* Left: heading */}
+                <AnimateOnScroll>
                 <div>
                     <span className="eyebrow text-base md:text-lg">Kontakt</span>
                     <h3 className="display-heading pt-2 text-4xl sm:text-5xl lg:text-6xl">
@@ -18,8 +20,10 @@ export function Contact() {
                         Masz jakieś pytania? Pisz śmiało, odpowiem i pomogę dobrać trening do Twojego poziomu gry.
                     </p>
                 </div>
+                </AnimateOnScroll>
 
                 {/* Right: contact list */}
+                <AnimateOnScroll delay={150}>
                 <div className="flex flex-col justify-center divide-y divide-court-white/10">
 
                     <a href="tel:+48782795254" className="group flex items-center gap-5 py-6 transition-opacity hover:opacity-75">
@@ -63,6 +67,7 @@ export function Contact() {
                     </a>
 
                 </div>
+                </AnimateOnScroll>
             </div>
         </section>
     )
