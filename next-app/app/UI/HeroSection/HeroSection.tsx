@@ -44,14 +44,25 @@ export function HeroSection() {
 
                     {/* Location badges */}
                     <div className="hero-anim mt-7 flex flex-wrap gap-2 md:mt-8" style={{ animationDelay: '0.5s' }}>
-                        {['Centrum Sportu Bażantowo', 'Hala Basen Zadole', 'inne okoliczne hale'].map((loc) => (
-                            <span key={loc} className="flex items-center gap-1.5 rounded-full bg-court-white/10 px-3 py-1.5 text-xs font-semibold text-court-white backdrop-blur-sm ring-1 ring-court-white/20 sm:text-sm">
+                        {[
+                            { label: 'Centrum Sportu Bażantowo', href: 'https://www.google.com/maps/place/Centrum+Sportowe+Ba%C5%BCantowo/@50.1970058,18.9786721,723m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4716c92c35818185:0x6d865a6e7c4af1d1!8m2!3d50.1970024!4d18.981247!16s%2Fg%2F1jkxdwkz3?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D' },
+                            { label: 'Hala Basen Zadole', href: 'https://www.google.com/maps/place/Basen+Zadole/@50.2185952,18.9626548,723m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4716cfb49a4fb9c9:0x7badcdc046823bed!8m2!3d50.2185918!4d18.9652297!16s%2Fg%2F11tc9_pvrx?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D' },
+                            { label: 'inne okoliczne hale', href: null },
+                        ].map(({ label, href }) => {
+                            const cls = "flex items-center gap-1.5 rounded-full bg-court-white/10 px-3 py-1.5 text-xs font-semibold text-court-white backdrop-blur-sm ring-1 ring-court-white/20 sm:text-sm";
+                            const icon = (
                                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 shrink-0 fill-current text-court-panel" aria-hidden="true">
                                     <path d="M18.364 4.636a9 9 0 0 1 0 12.728l-4.243 4.243a3 3 0 0 1 -4.242 0l-4.243 -4.243a9 9 0 1 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
                                 </svg>
-                                {loc}
-                            </span>
-                        ))}
+                            );
+                            return href ? (
+                                <a key={label} href={href} target="_blank" rel="noopener noreferrer" className={`${cls} hover:bg-court-white/20 transition-colors`}>
+                                    {icon}{label}
+                                </a>
+                            ) : (
+                                <span key={label} className={cls}>{icon}{label}</span>
+                            );
+                        })}
                     </div>
                 </div>
 
