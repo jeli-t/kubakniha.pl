@@ -71,7 +71,7 @@ export function HeroSection() {
                     <Image
                         src={HeroImg}
                         priority
-                        className="relative z-10 h-auto max-h-[55svh] w-auto max-w-[92%] object-contain sm:max-h-[65svh] md:max-h-[calc(100vh-5rem)] md:max-w-[112%]"
+                        className="relative z-10 h-auto max-h-[55svh] w-auto max-w-[92%] origin-bottom scale-95 object-contain sm:max-h-[65svh] md:max-h-[calc(100vh-5rem)] md:max-w-[112%]"
                         alt="Jakub Knihinicki - instruktor badmintona Katowice"
                     />
                 </div>

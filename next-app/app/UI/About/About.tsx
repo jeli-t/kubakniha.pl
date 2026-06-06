@@ -31,7 +31,7 @@ export function About() {
                 <div className="flex items-end justify-center md:justify-end">
                     <Image
                         src={AboutImg}
-                        className="w-[88%] object-contain md:w-auto md:h-[620px]"
+                        className="w-[88%] scale-105 object-contain md:w-auto md:h-[620px] md:-translate-x-24"
                         alt="Jakub Knihinicki z certyfikatem instruktora badmintona"
                     />
                 </div>

@@ -25,9 +25,35 @@ export function Treningi() {
                         Nauczę Cię grać w badmintona
                     </h2>
                     <div className="mt-5 h-1.5 w-20 bg-court-panel sm:w-24"></div>
-                    <p className="max-w-3xl pt-5 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
-                        Chcesz poprawić swoją technikę, szybkość i wytrzymałość na korcie? A może tylko poruszać się i poznać nowy sport pod okiem trenera? Zapraszam na treningi indywidualne lub w grupach 2-4 osobowych. Możesz zabrać ze sobą znajomych lub rodzinę! Treningi są dostosowane do indywidualnych potrzeb i celów - od podstawowych zasad gry, po zaawansowane strategie taktyczne. Gwarantuję profesjonalne podejście i dobrą zabawę! <br /><br /> Treningi mogą się odbywać w Centrum Sportu Bażantów ul. Pijarska 3, Katowice oraz na Hali Basenu Zadole ul. Wczasowa 8A, Katowice lub na innych okolicznych halach po wcześniejszym uzgodnieniu. Zapisy telefonicznie lub przez social media.
-                    </p>
+
+                    <ul className="mt-5 space-y-2 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
+                        {[
+                            'Nauka badmintona od zera.',
+                            'Poznanie zasad oraz wykorzystanie badmintona jako hobby.',
+                            'Poprawa techniki, szybkości i wytrzymałości.',
+                            'Doskonalenie gry dla zaawansowanych zawodników.',
+                            'Treningi indywidualne.',
+                            'Treningi w grupach 2–4 osobowych.',
+                            'Profesjonalne podejście i dobra zabawa.',
+                        ].map((item) => (
+                            <li key={item} className="flex items-start gap-2.5">
+                                <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-court-panel"></span>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+
+                    <div className="mt-8 border-t border-court-panel/20 pt-6">
+                        <span className="eyebrow-dark text-sm md:text-base">Lokalizacja</span>
+                        <ul className="mt-3 space-y-2 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
+                            <li>Centrum Sportu Bażantów ul. Pijarska 3, Katowice</li>
+                            <li>Hala Basenu Zadole ul. Wczasowa 8A, Katowice</li>
+                            <li>Inne okoliczne hale (po wcześniejszym umówieniu)</li>
+                        </ul>
+                        <p className="mt-4 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
+                            Zapisy telefonicznie lub przez Social Media.
+                        </p>
+                    </div>
                 </div>
                 </AnimateOnScroll>
             </div>
