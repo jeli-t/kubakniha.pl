@@ -43,17 +43,6 @@ export function Treningi() {
                         ))}
                     </ul>
 
-                    <div className="mt-8 border-t border-court-panel/20 pt-6">
-                        <span className="eyebrow-dark text-sm md:text-base">Lokalizacja</span>
-                        <ul className="mt-3 space-y-2 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
-                            <li>Centrum Sportu Bażantów ul. Pijarska 3, Katowice</li>
-                            <li>Hala Basenu Zadole ul. Wczasowa 8A, Katowice</li>
-                            <li>Inne okoliczne hale (po wcześniejszym umówieniu)</li>
-                        </ul>
-                        <p className="mt-4 text-base leading-relaxed text-court-deep sm:text-lg md:text-xl">
-                            Zapisy telefonicznie lub przez Social Media.
-                        </p>
-                    </div>
                 </div>
                 </AnimateOnScroll>
             </div>
